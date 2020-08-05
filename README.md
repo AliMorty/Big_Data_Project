@@ -8,7 +8,7 @@ Is the analysis of the paper tight?
 <br> 
 One way to find an answer to this question is to test the algorithm's performance by running some experimental tests. Of course, the experimental tests just provide evidence and they are not proof. <br>
 
-
+### You can find the report in the HTML format. (In case you can't read the formulas here.)
 
 ## 2. Project Outline
 In the following, we will first give a bit explanation about the general setup and data distribution in the first section. Then we explain the theorems about the performance of the algorithm. Finally, we test the algorithm performance by generating data from the mixture of Gaussian Distribution and run our implementation of the paper's algorithm <br>
