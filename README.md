@@ -1,6 +1,6 @@
 # Big Data Project
 # Learning Mixture of Gaussians with Streaming Data
-
+This project is done by me, [aminrashidbeigi](https://github.com/aminrashidbeigi/) and Bita Jalali.
 ## 1. Abstract
 In this project, we explore a theoretical paper published in Neurips2017 Conference titled **Learning Mixture of Gaussians with Streaming Data** by doing some experimental tests on the performance of the algorithm.  You can find the original paper [here](https://papers.nips.cc/paper/7238-learning-mixture-of-gaussians-with-streaming-data).<br>
 The authors of the paper proposed an algorithm with a theoretical guarantee for the problem of **clustering the streaming data points where data points come from a Mixture of Gaussian Distribution**. In particular, they showed that with high probability, the algorithm eventually finds (/learns) the mixture of Gaussians accurately. Moreover, they showed that the learning rate is near-optimal. Meaning that in each step, the error decreases optimally. Note that, as the problem of learning the mixture of Gaussian is NP-Hard, they used a simplification assumption for the data to make the problem tractable. The simplification assumption they used is that data comes from a mixture of **well-separated** Gaussians. (i.e. the centers of any two clusters are far enough so that the algorithm can decide computationally easily whether the point belongs to the first cluster or the second one.)<br> Although the assumption allows them to have a good performance for this problem, one question might arise:
